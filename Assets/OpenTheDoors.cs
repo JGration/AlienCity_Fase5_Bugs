@@ -9,7 +9,7 @@ public class OpenTheDoors : MonoBehaviour {
 
 		void OnTriggerEnter(Collider other) 
 		{
-			if (other.gameObject.CompareTag("Player"))
+			if (other.gameObject.CompareTag("Player") && Chave)
 			{
 			anim.Play("open");
 			}

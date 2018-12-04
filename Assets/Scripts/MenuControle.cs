@@ -15,7 +15,7 @@ public class MenuControle : MonoBehaviour {
 		          buttonWidth, buttonHeight),
 			"Jogar")) 
 		{
-			SceneManager.LoadScene("Jogo");
+			SceneManager.LoadScene("CenaTeste");
 		}
 		if (GUI.Button (
 			new Rect (Screen.width / 2 - (buttonWidth / 2), 
